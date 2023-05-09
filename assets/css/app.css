@@ -24,7 +24,7 @@ body {
 }
 
 /* nav */
-.navbar {
+.navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +36,29 @@ body {
   right: 0;
   left: 0;
   z-index: 9999;
+}
+
+.b{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgba(1, 1, 1, 0.8);
+  border-bottom: 1px solid #3a3223;
+  position: fixed;
+  top: 70px;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  text-align: center;
+}
+
+.b audio{
+  width: 100%;
+}
+
+.b #close{
+  color: #fff;
 }
 
 .navbar .navbar-logo {
@@ -84,6 +107,15 @@ body {
 
 #hamburger {
   display: none;
+}
+
+/* music */
+
+.music{
+  position: relative;
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.8);
+  height: 50px;
 }
 
 /* Hero section */
